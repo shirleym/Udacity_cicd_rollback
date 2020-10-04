@@ -8,7 +8,7 @@ orbs:
 # Section for reusable commnds
 commands:
   destroy_environment:
-    step:
+    steps:
       - run:
           name: Destroy destroy_environment
           command: |
